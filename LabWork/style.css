@@ -6,3 +6,30 @@ body {
     overflow: hidden;
 }
 
+/* .fix:valid {
+    border: 1px solid #44ad4c;
+    background-image: url(img/valid.png);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    border-color: #44ad4c;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #44ad4c;
+    outline: 0 none;
+} */
+
+.fix:invalid {
+    background-image: url(img/invalid.png);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border-color: #e87087;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #e87087;
+    outline: 0 none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: auto;
+    box-shadow: auto;
+    outline: 0 none;
+}
