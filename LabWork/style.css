@@ -6,7 +6,7 @@ body {
     overflow: hidden;
 }
 
-/* .fix:valid {
+.fix:valid {
     border: 1px solid #44ad4c;
     background-image: url(img/valid.png);
     background-position: 97% center;
@@ -15,7 +15,7 @@ body {
     border-color: #44ad4c;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #44ad4c;
     outline: 0 none;
-} */
+}
 
 .fix:invalid {
     background-image: url(img/invalid.png);
