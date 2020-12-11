@@ -2,6 +2,11 @@
     background-color: #17a2b8 !important;
 }
 
+.btn-info {
+    background-color: #17a2b8 !important;
+    border: 0;
+}
+
 .link-light {
     color: rgba(255,255,255,.55) !important;
 }
@@ -14,4 +19,27 @@ i {
 }
 a > i {
     font-size: 30px;
+}
+
+.block {
+    padding-right: 20px;
+}
+.block:last-child {
+    padding: 0;
+}
+
+span {
+    font-size: 12px;
+}
+
+.form-check-input:checked {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #17a2b8;
+    outline: 0 none;
+}
+input[type="radio"]:focus {
+    border-color: auto;
+    box-shadow: 0;
+    outline: 0 none;
 }
