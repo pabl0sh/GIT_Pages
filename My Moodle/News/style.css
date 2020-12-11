@@ -1,0 +1,17 @@
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.link-light {
+    color: rgba(255,255,255,.55) !important;
+}
+.link-light:active {
+    color: rgba(255,255,255,.0) !important;
+}
+
+i {
+    font-size: 40px;
+}
+a > i {
+    font-size: 30px;
+}
