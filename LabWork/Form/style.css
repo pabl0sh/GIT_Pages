@@ -11,7 +11,7 @@ body {
     background-image: url(img/valid.png);
     background-position: 97% center;
     background-repeat: no-repeat;
-    background-size: 5%;
+    background-size: 20px;
     border-color: #17a2b8;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #17a2b8;
     outline: 0 none;
@@ -44,3 +44,7 @@ input[type="password"]:focus {
     color: #17a2b8 !important;
 }
 /* ================================ */
+.form-check-input:checked {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
