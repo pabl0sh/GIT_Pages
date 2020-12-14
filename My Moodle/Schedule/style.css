@@ -20,3 +20,11 @@ a > i {
 .fix {
     font-size: 15px;
 }
+
+td {
+    font-size: 12px;
+}
+
+.spn {
+    font-size: 10px;
+}
