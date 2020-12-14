@@ -2,9 +2,21 @@
     background-color: #17a2b8 !important;
 }
 
-i {
+.table-info {
+    --bs-table-bg: #bee5eb !important;
+}
+
+.text-info {
+    color: #17a2b8 !important;
+}
+
+header i {
     font-size: 40px;
 }
 a > i {
     font-size: 30px;
+}
+
+.fix {
+    font-size: 15px;
 }
