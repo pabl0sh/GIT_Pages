@@ -7,6 +7,10 @@
     border: 0;
 }
 
+.link-info {
+    color: #17a2b8 !important;
+}
+
 .link-light {
     color: rgba(255,255,255,.55) !important;
 }
