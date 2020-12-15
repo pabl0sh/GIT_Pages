@@ -27,7 +27,6 @@ a > i {
 
 .block {
     padding-right: 20px;
-    height: 400px;
 }
 .block:last-child {
     padding: 0;

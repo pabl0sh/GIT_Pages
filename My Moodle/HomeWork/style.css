@@ -10,10 +10,6 @@
 .link-info {
     color: #17a2b8 !important;
 }
-.link-info:hover {
-    color: #073238be !important;
-}
-
 
 .link-light {
     color: rgba(255,255,255,.55) !important;
