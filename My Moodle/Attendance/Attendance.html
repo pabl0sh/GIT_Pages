@@ -11,6 +11,34 @@
     </head>
 <body>
 
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">New homework</h5>
+        <button type="button" class="close border-0 bg-transparent" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="pt-2">Topic:</p>
+        <input type="text" class="border rounded py-2 w-100 mb-3">
+        <div class="form-file mb-3">
+          <input type="file" class="form-file-input" id="customFile">
+          <label class="form-file-label" for="customFile">
+            <span class="form-file-text py-2">Choose file...</span>
+            <span class="form-file-button py-2">Browse</span>
+          </label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info text-white py-2 px-3" data-dismiss="modal">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-info">
             <div class="container-fluid">
@@ -45,10 +73,200 @@
             <p class="font-weight-light text-center h2 px-2">23 april, tuesday</p> 
         </div>
 
-        <div class="d-flex">
-
+          <div class="d-flex align-items-end text-nowrap">
+            <a href="" class="text-decoration-none px-3 py-2 border rounded-top link-info border-bottom-0">1 lesson</a>
+            <div class="d-flex border-bottom">
+              <a href="" class="text-decoration-none px-3 py-2  rounded-top link-info border-bottom-0">2 lesson</a>
+              <a href="" class="text-decoration-none px-3 py-2  rounded-top link-info border-bottom-0">3 lesson</a>
+              <a href="" class="text-decoration-none px-3 py-2  rounded-top link-info border-bottom-0">4 lesson</a>
+              <a href="" class="text-decoration-none px-3 py-2  rounded-top link-info border-bottom-0">5 lesson</a>
+              <a href="" class="text-decoration-none px-3 py-2  rounded-top link-info border-bottom-0">6 lesson</a>
+              <a href="" class="text-decoration-none px-3 py-2  rounded-top link-info border-bottom-0">7 lesson</a>
+              <a href="" class="text-decoration-none px-3 py-2  rounded-top link-info border-bottom-0">8 lesson</a>
+            </div>
+            <div class="d-flex border-bottom w-100"></div>
         </div>
+
+        <div class="d-flex pt-3 align-items-center pl-5">
+          <div class="block col-2">
+            <span class="spn text-muted font-weight-bold">Group</span>
+            <p class="text-uppercase">abc-1234</p>
+          </div>
+          <div class="block col-2">
+            <span class="spn text-muted font-weight-bold">Subject</span>
+            <p class="text-uppercase">html & css</p>
+          </div>
+          <div class="block col-2 mr-5">
+            <span class="spn text-muted font-weight-bold">Lesson topic</span>
+            <input type="text" class="rounded p-2 d-block w-100 border">
+          </div>
+          <div class="block col-2">
+            <span class="spn text-muted font-weight-bold ">HomeWork</span>
+            <input type="submit" value="Add homework" class="btn rounded bg-info border-0 text-white p-2 d-block" data-toggle="modal" data-target="#staticBackdrop">
+          </div>
+        </div>
+
+        <table class="table mt-4">
+          <thead class="table-info text-white">
+            <tr>
+              <th scope="col"></th>
+              <th scope="col" class="font-weight-normal">Name</th>
+              <th scope="col" class="font-weight-normal">GPA</th>
+              <th scope="col" class="font-weight-normal">Is present</th>
+              <th scope="col" class="font-weight-normal">Test</th>
+              <th scope="col" class="font-weight-normal">Classwork</th>
+              <th scope="col" class="font-weight-normal">Comment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="align-middle">
+              <th scope="row" class="text-uppercase font-weight-normal">1</th>
+              <td>Ashton Hickman</td>
+              <td>10</td>
+              <td>
+                  <div class="d-flex">
+                    <div>
+                      <input class="form-check-input mr-3 border-success" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div>
+                      <input class="form-check-input mr-3 border-warning" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div>
+                      <input class="form-check-input border-danger" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                  </div>
+              </td>
+              <td>
+                <select name="" id="" class="pr-4 py-1 border rounded">
+                  <option value="">-</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+              <td>
+                <select name="" id="" class="pr-4 py-1 border rounded">
+                  <option value="">-</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+              <td>
+                <textarea name="" id="" cols="40" rows="1" class="py-1 border rounded"></textarea>
+              </td>
+            </tr>
+
+            <tr class="align-middle">
+              <th scope="row" class="text-uppercase font-weight-normal">2</th>
+              <td>Mischa Roberson</td>
+              <td>9</td>
+              <td>
+                  <div class="d-flex">
+                    <div>
+                      <input class="form-check-input mr-3 border-success" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div>
+                      <input class="form-check-input mr-3 border-warning" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div>
+                      <input class="form-check-input border-danger" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                  </div>
+              </td>
+              <td>
+                <select name="" id="" class="pr-4 py-1 border rounded">
+                  <option value="">-</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+              <td>
+                <select name="" id="" class="pr-4 py-1 border rounded">
+                  <option value="">-</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+              <td>
+                <textarea name="" id="" cols="40" rows="1" class="py-1 border rounded"></textarea>
+              </td>
+            </tr>
+
+            <tr class="align-middle">
+              <th scope="row" class="text-uppercase font-weight-normal">3</th>
+              <td>Jaydon Metcalfe</td>
+              <td>11</td>
+              <td>
+                  <div class="d-flex">
+                    <div>
+                      <input class="form-check-input mr-3 border-success" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div>
+                      <input class="form-check-input mr-3 border-warning" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div>
+                      <input class="form-check-input border-danger" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                  </div>
+              </td>
+              <td>
+                <select name="" id="" class="pr-4 py-1 border rounded">
+                  <option value="">-</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+              <td>
+                <select name="" id="" class="pr-4 py-1 border rounded">
+                  <option value="">-</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+              <td>
+                <textarea name="" id="" cols="40" rows="1" class="py-1 border rounded"></textarea>
+              </td>
+            </tr>
+
+            <tr class="align-middle">
+              <th scope="row" class="text-uppercase font-weight-normal">4</th>
+              <td>Gary Jacobson</td>
+              <td>8</td>
+              <td>
+                  <div class="d-flex">
+                    <div>
+                      <input class="form-check-input mr-3 border-success" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div>
+                      <input class="form-check-input mr-3 border-warning" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div>
+                      <input class="form-check-input border-danger" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                  </div>
+              </td>
+              <td>
+                <select name="" id="" class="pr-4 py-1 border rounded">
+                  <option value="">-</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+              <td>
+                <select name="" id="" class="pr-4 py-1 border rounded">
+                  <option value="">-</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+              <td>
+                <textarea name="" id="" cols="40" rows="1" class="py-1 border rounded"></textarea>
+              </td>
+            </tr>
+          </tbody>
+        </table>
     </main>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     
 </body>
 </html>

@@ -7,6 +7,10 @@
     border: 0;
 }
 
+.table-info {
+    --bs-table-bg: #bee5eb !important;
+}
+
 .link-info {
     color: #17a2b8 !important;
 }
@@ -23,4 +27,8 @@ i {
 }
 a > i {
     font-size: 30px;
+}
+
+.spn {
+    font-size: 12px;
 }

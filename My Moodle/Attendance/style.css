@@ -7,6 +7,10 @@
     border: 0;
 }
 
+.table-info {
+    --bs-table-bg: #bee5eb !important;
+}
+
 .link-info {
     color: #17a2b8 !important;
 }
@@ -27,4 +31,13 @@ i {
 }
 a > i {
     font-size: 30px;
+}
+.border-bottom a:hover {
+    border-top: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+    border-left: 1px solid #dee2e6 !important;
+}
+
+.spn {
+    font-size: 12px;
 }
