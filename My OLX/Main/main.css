@@ -58,4 +58,18 @@ input:focus {
   padding-bottom: 5px;
   font-size: 14px;
 }
+
+select {
+  padding-left: 50px;
+}
+
+.position-relative .couch {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.images {
+  width: 250px;
+}
 /*# sourceMappingURL=main.css.map */
