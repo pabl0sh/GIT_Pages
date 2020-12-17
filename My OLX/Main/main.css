@@ -70,6 +70,58 @@ select {
 }
 
 .images {
-  width: 250px;
+  width: 300px;
+}
+
+.galery {
+  width: 160px;
+}
+
+.arrow-5 {
+  background: #f8f8f8;
+  text-align: center;
+  color: #000;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 0;
+  border: 3px solid #f8f8f8;
+}
+
+.arrow-5-left {
+  position: relative;
+  z-index: 10;
+}
+
+.arrow-5-left::after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  z-index: 10;
+}
+
+.arrow-5-left::after {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  margin-top: -15px;
+  top: 50%;
+  border-right: 15px solid #f8f8f8;
+  left: -15px;
+}
+
+.position-relative .account {
+  position: absolute;
+  margin: auto;
+  bottom: 160px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.position-relative a {
+  color: #1eaabf;
+  border: 1px solid #1eaabf;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */
