@@ -3,9 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Main</title>
 </head>
 <body>
-    
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container p-0">
+              <a class="navbar-brand" href="#"><img class="image" src="img/up.png" alt=""><span class="text-uppercase">ad's board</span></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-md-0 align-items-center">
+                  <li class="nav-item fix">
+                    <a class="nav-link link-black bg-warning rounded" aria-current="page" href="#"><i class="fas fa-plus"></i><span>New ad</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="img/av_64.png" alt=""><span class="text-primary spn">My profile</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container">
+        <main class="mt-4">
+
+            <form class="py-3 px-3 rounded row align-items-center" style="background-color: #cce5ff;">
+                <div class="col-5">
+                    <div class="d-flex rounded overflow-hidden border p-0">
+                        <i class="fas fa-search icon"></i>
+                        <input type="text" class="border-0 py-2 w-100" placeholder="11 999 345 ads near you">
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="d-flex rounded overflow-hidden border p-0">
+                        <i class="fas fa-map-marker-alt icon"></i>
+                        <input type="text" class="border-0 py-2 w-100" placeholder="Kiev, Kiev area">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div>
+                        <input type="submit" class="btn btn-primary py-2 w-100" value="Search">
+                    </div>
+                </div>
+            </form>
+
+            <div class="categories row mt-5">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-baseball-ball text-primary"></i><span>Baseball</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-bed text-warning"></i></i><span>Bed</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-car text-info"></i></i><span>Car</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-cannabis text-success"></i><span>Cannabis</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-book text-danger"></i><span>Book</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-cat text-secondary"></i><span>Cat</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-chair text-primary"></i><span>Chair</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-clock text-info"></i><span>Alarm</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-couch text-warning"></i><span>Couch</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-desktop"></i><span>PC</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-fish text-secondary"></i><span>Fish</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-frog text-success"></i><span>Frog</span></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="link-dark d-flex align-items-center text-decoration-none"><i class="fas fa-glasses text-danger"></i><span>Glasses</span></a>
+                </div>
+            </div>
+            
+        </main>
+
+        <div class="container p-0">
+            <footer class="border-top mt-4 row pt-4">
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-start justify-content-lg-center align-items-start align-items-lg-center mb-3 mb-lg-0">
+                    <img src="img/down.png" alt="" class="image_two">
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex flex-column justify-content-center mb-3 mb-lg-0">
+                    <a href="" class="text-decoration-none link-secondary">Mobile applications</a>
+                    <a href="" class="text-decoration-none link-secondary">Paid services</a>
+                    <a href="" class="text-decoration-none link-secondary">Advertising on the website</a>
+                    <a href="" class="text-decoration-none link-secondary">For the press</a>
+                    <a href="" class="text-decoration-none link-secondary">Help and Feedback</a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex flex-column justify-content-center mb-3 mb-lg-0">
+                    <a href="" class="text-decoration-none link-secondary">AD'S BOARD blog</a>
+                    <a href="" class="text-decoration-none link-secondary">Safety regulations</a>
+                    <a href="" class="text-decoration-none link-secondary">How to sell and buy?</a>
+                    <a href="" class="text-decoration-none link-secondary">Terms of Use</a>
+                    <a href="" class="text-decoration-none link-secondary">Partners</a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex flex-column justify-content-start">
+                    <a href="" class="text-decoration-none link-secondary">Work at AD'S BOARD</a>
+                    <a href="" class="text-decoration-none link-secondary">Popular Searches</a>
+                    <a href="" class="text-decoration-none link-secondary">Map of Regions</a>
+                    <a href="" class="text-decoration-none link-secondary">Advertising preferences</a>
+                    <a href="" class="text-decoration-none link-secondary">Site Map</a>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
