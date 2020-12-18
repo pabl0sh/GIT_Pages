@@ -1,0 +1,37 @@
+// form-control
+.form-control {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.473) !important;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    opacity: .5;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+// checkbox
+.form-check-input[type="checkbox"] {
+    border-radius: 0;
+    border: 3px solid #000;
+}
+.form-check-input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+.form-check-input[type="checkbox"]:checked {
+    background-color: #0262a4;
+    border-color: #0262a4;
+  }
+.form-check-label {
+    opacity: .5;
+}
+// font-light
+.h2 {
+    font-weight: 400;
+}
+// shadow
+.shadow {
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.15) !important;
+}

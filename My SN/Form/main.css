@@ -1,0 +1,56 @@
+.form-control {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.473) !important;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  opacity: .5;
+}
+
+.form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 0;
+  border: 3px solid #000;
+}
+
+.form-check-input[type="checkbox"]:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-check-input[type="checkbox"]:checked {
+  background-color: #0262a4;
+  border-color: #0262a4;
+}
+
+.form-check-label {
+  opacity: .5;
+}
+
+.h2 {
+  font-weight: 400;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.bg-primary {
+  background-color: #0262a4 !important;
+}
+
+.btn-primary {
+  background-color: #0262a4 !important;
+}
+
+.navbar-brand {
+  font-size: 40px;
+}
+/*# sourceMappingURL=main.css.map */
