@@ -25,4 +25,44 @@ hr {
 .image_img {
   width: 200px;
 }
+
+.arrow {
+  position: relative;
+  z-index: 10;
+  background-color: #f8f8f8;
+}
+
+.arrow-left::after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  margin-top: -20px;
+  top: 50%;
+  border-right: 20px solid #f8f8f8;
+  left: -20px;
+}
+
+.arrow-right::after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  margin-top: -20px;
+  top: 50%;
+  border-left: 20px solid #f8f8f8;
+  right: -20px;
+}
+
+.ml-5 {
+  margin-left: 60px !important;
+}
 /*# sourceMappingURL=main.css.map */
