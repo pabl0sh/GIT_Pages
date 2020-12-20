@@ -10,12 +10,20 @@
   background-color: #f8f9fa;
 }
 
+.text-light-custom {
+  color: #f8f9fa;
+}
+
 .btn-secondary {
   color: #6c757d !important;
 }
 
 i {
   font-size: 40px;
+}
+
+.circle {
+  font-size: 20px;
 }
 
 hr {

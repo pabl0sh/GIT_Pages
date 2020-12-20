@@ -62,7 +62,7 @@
   font-size: 35px;
 }
 
-li:hover {
+.nav-iteam li:hover {
   background-color: #e4f6fe;
 }
 
