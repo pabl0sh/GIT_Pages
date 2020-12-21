@@ -6,12 +6,41 @@
   background-color: #6c757d !important;
 }
 
+.bg-access {
+  background-color: #6fd084 !important;
+}
+
+.bg-info {
+  background-color: #37b0c1 !important;
+}
+
+.bg-danger {
+  background-color: #f98691 !important;
+}
+
 .bg-light-custom {
   background-color: #f8f9fa;
 }
 
+.bg-green-custom {
+  background-color: #28a745;
+  font-size: 12px;
+}
+
 .text-light-custom {
   color: #f8f9fa;
+}
+
+.text-success {
+  color: #6fd084 !important;
+}
+
+.text-info {
+  color: #37b0c1 !important;
+}
+
+.text-danger {
+  color: #f98691 !important;
 }
 
 .btn-secondary {
@@ -72,5 +101,9 @@ hr {
 
 .ml-5 {
   margin-left: 60px !important;
+}
+
+.fa-download, .fa-trash-alt, .fa-redo {
+  font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */
