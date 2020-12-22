@@ -27,6 +27,14 @@
   font-size: 12px;
 }
 
+.bg-blue-custom {
+  background-color: #cce5ff !important;
+}
+
+.text-primary {
+  color: #1b5589 !important;
+}
+
 .text-light-custom {
   color: #f8f9fa;
 }

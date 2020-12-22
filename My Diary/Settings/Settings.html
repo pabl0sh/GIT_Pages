@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Home/main.css">
+    <title>Main</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container">
+              <a class="navbar-brand text-light pl-2" href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item pl-2">
+                      <a class="nav-link active" aria-current="page" href="../Home/Home.html">Home</a>
+                    </li>
+                    <li class="nav-item pl-2">
+                      <a class="nav-link" href="../HomeWork/Homework.html">Homework</a>
+                    </li>
+                    <li class="nav-item pl-2">
+                      <a class="nav-link" href="../Settings/Settings.html">Settings</a>
+                    </li>
+                  </ul>
+                <div class="d-flex navbar-nav align-items-end">
+                    <a href=""><img src="img/av_64.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-12">
+                    <p class="h1 font-weight-light text-center">Settings</p>
+                </div>
+            </div>
+
+            <div class="row bg-blue-custom text-center text-uppercase text-primary h5 font-weight-normal py-3 rounded">
+                <div class="col-2">avatar</div>
+                <div class="col-5">student's info</div>
+                <div class="col-5">change password</div>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-2 pl-0">
+                    <div><img src="img/av_256.png" alt="" class="img-fluid"></div>
+                    <button class="btn bg-secondary w-100 link-light py-2">Choose photo</button>
+                </div>
+                <div class="col-5 px-4">
+                    <form class="d-flex flex-column">
+                        <input type="text" class="border pl-3 py-2 rounded mb-3" placeholder="First name">
+                        <input type="text" class="border pl-3 py-2 rounded mb-3" placeholder="Last name">
+                        <input type="email" class="border pl-3 py-2 rounded mb-3" placeholder="Email">
+                        <input type="number" class="border pl-3 py-2 rounded mb-3" placeholder="Phone number">
+                        <input type="text" class="border pl-3 py-2 rounded mb-3" placeholder="Address">
+                        <input type="text" class="border pl-3 py-2 rounded mb-3" placeholder="FB link">
+                        <button class="btn bg-secondary w-100 link-light py-2">Save changes</button>
+                    </form>
+                </div>
+                <div class="col-5 pr-0">
+                    <form class="d-flex flex-column">
+                        <input type="password" class="border pl-3 py-2 rounded mb-3" placeholder="Old password">
+                        <input type="password" class="border pl-3 py-2 rounded mb-3" placeholder="New password">
+                        <input type="password" class="border pl-3 py-2 rounded mb-3" placeholder="Repeat password">
+                        <button class="btn bg-secondary w-100 link-light py-2">Change password</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+</body>
+</html>
