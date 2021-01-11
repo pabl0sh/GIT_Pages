@@ -2,10 +2,78 @@
 
 
 body {
-    font-family: 'Jura', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: 'Jura', sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar-brand {
-    font-family: 'Dancing Script', cursive !important;
-    font-size: 30pt;
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 30pt;
+}
+
+.h1 {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 48px;
+  padding-top: 200px;
+}
+
+.mr-5 {
+  margin-right: 2.5rem !important;
+}
+
+.line-top {
+  margin-left: 600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  width: auto;
+  height: 1px;
+  background-color: rgba(104, 97, 76, 0.5);
+
+  transform: rotate(165deg);
+}
+.line-bot {
+  margin-left: 600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 500px;
+  width: auto;
+  height: 1px;
+  background-color: rgba(104, 97, 76, 0.5);
+
+  transform: rotate(-165deg);
+}
+
+// Width
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+
+p {
+  font-size: 24px;
+}
+
+// Button
+.btn-warning {
+  background-color: #CBB66E !important;
+  border: 0;
+  font-size: 24px;
+  border-radius: 30px;
+  padding: 30px 75px;
+  margin-top: 180px;
+}
+// 
+.bord {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: #EFCDCD;
+  height: 20px;
+  width: 100%;
 }
