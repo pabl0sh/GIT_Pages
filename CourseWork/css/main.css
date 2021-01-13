@@ -39,7 +39,14 @@ section {
 }
 
 .zaiats_image {
-  background: url(/CourseWork/img/zaiats.jpg);
+  background: url(/CourseWork/img/koster_two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fonarik_image {
+  background: url(/CourseWork/img/man.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
