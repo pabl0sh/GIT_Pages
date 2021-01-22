@@ -4,20 +4,250 @@
 * {
     font-family: 'EB Garamond', serif;
 }
+// Width
+.w-30 {
+    width: 30% !important;
+}
+.w-30-second {
+    width: 30% !important;
+}
+.w-33 {
+    width: 33% !important;
+}
+.w-50-second {
+    width: 50% !important;
+}
+.w-70 {
+    width: 70% !important;
+}
+.w-70-second {
+    width: 70% !important;
+}
+.w-70-third {
+    width: 70% !important;
+}
+// Width PX
+.w-50px {
+    width: 50px !important;
+}
+// Height PX
+.h-300px {
+    height: 300px !important;
+}
+.h-400px {
+    height: 400px !important;
+}
+.h-800px {
+    height: 800px;
+}
 
 .social_images {
     width: 20px;
 }
 
+.filter {
+    opacity: .7;
+}
+
+.img-fluid {
+    overflow: hidden;
+}
+// Image
+.koster_image {
+    background-image: url(../img/koster.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dog_image {
+    background-image: url(../img/dog.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.man_image {
+    background-image: url(../img/man.jpg);
+    background-size: cover;
+    background-position: center;
+}
+// Hover Footer
+.rounded-circle:hover {
+    background-color: rgba(163, 160, 160, 0.089);
+    transition: .3s linear;
+}
+// Hover Gallery
+.hover{
+    position: relative;   
+    overflow: hidden;
+}
+.text-content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background:rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity .4s linear;
+}
+.hover:hover .text-content{
+    opacity: 1;
+}
+// Borders
+#border_one {
+    border-bottom: 2px solid #dee2e6 !important;
+}
+#border_two {
+    border-left: 2px solid #dee2e6 !important;
+    border-right: 2px solid #dee2e6 !important;
+    border-bottom: 2px solid #dee2e6 !important;
+}
+#border_three {
+    border-bottom: 2px solid #dee2e6 !important;
+}
+#border_five {
+    border-left: 2px solid #dee2e6 !important;
+    border-right: 2px solid #dee2e6 !important;
+}
 // BootstrapMod
 .navbar-brand {
     font-weight: 700;
 }
-
 .nav-item {
-    padding: 0 10px;
+    padding: 0 1rem;
 }
-
 .nav-link {
     font-size: 13pt;
+}
+.h1 {
+    font-size: 300px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 4% !important;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.form-control:focus {
+    border: #6c757d;
+    box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5) !important;
+}
+.form-select:focus {
+    border: #6c757d;
+    box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5) !important;
+}
+.form-check-input:focus {
+    border: #6c757d;
+    box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5) !important;
+}
+.form-check-input:checked[type="checkbox"] {
+    background-color: #6c757d;
+    border: #6c757d;
+}
+.form-check-input:checked[type="radio"] {
+    background-color: #6c757d;
+    border: #6c757d;
+}
+// Media
+@media screen and (max-width: 1200px) {
+    .h-300px {
+        height: 250px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav-item {
+        padding: 0 .5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav-item {
+        padding: 0;
+    }
+    // Width
+    .w-30 {
+        width: 50% !important;
+    }
+    .w-30-second {
+        width: 50% !important;
+    }
+    .w-33 {
+        width: 50% !important;
+    }
+    .w-70 {
+        width: 50% !important;
+    }
+    .w-70-second {
+        width: 80% !important;
+    }
+    .w-70-third {
+        width: 50% !important;
+    }
+    // Borders
+    #border_one {
+        border-bottom: 2px solid #dee2e6 !important;
+    }
+    #border_two {
+        border-right: none !important;
+    }
+    #border_four {
+        border-left: 2px solid #dee2e6 !important;
+        border-bottom: 2px solid #dee2e6 !important;
+    }
+    #border_five {
+        border-right: none !important;
+        border-left: none !important;
+    }
+    #border_six {
+        border-left: 2px solid #dee2e6 !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .w-30 {
+        width: 100% !important;
+    }
+    .w-30-second {
+        width: 100% !important;
+    }
+    .w-33 {
+        width: 100% !important;
+    }
+    .w-50-second {
+        width: 100% !important;
+    }
+    .w-70-third {
+        width: 100% !important;
+    }
+    .h-800px {
+        height: auto;
+    }
+    .h-400px {
+        height: 650px !important;
+    }
+    // Images 
+    .koster_image {
+        height: 400px;
+    }
+    .dog_image {
+        height: 350px;
+    }
+    .man_image {
+        height: 350px;
+    }
+    // Borders 
+    #border_two {
+        border-left: none !important;
+    }
+    #border_four {
+        border-left: none !important;
+    }
+    #border_six {
+        border-left: none !important;
+        border-top: 2px solid #dee2e6 !important;
+        border-bottom: 2px solid #dee2e6 !important;
+    }
 }
