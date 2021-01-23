@@ -60,19 +60,19 @@
 }
 
 .koster_image {
-  background-image: url(../img/koster.jpg);
+  background-image: url(../img/koster.webp);
   background-size: cover;
   background-position: center;
 }
 
 .dog_image {
-  background-image: url(../img/dog.jpg);
+  background-image: url(../img/dog.webp);
   background-size: cover;
   background-position: center;
 }
 
 .man_image {
-  background-image: url(../img/man.jpg);
+  background-image: url(../img/man.webp);
   background-size: cover;
   background-position: center;
 }
